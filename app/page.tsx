@@ -5,13 +5,13 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Conway's Game of Life</title>
+        <title>Conway&apos;s Game of Life</title>
         <meta name="description" content="Conway's Game of Life in TypeScript and Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1>Conway's Game of Life</h1>
+        <h1>Conway&apos;s Game of Life</h1>
         <GameOfLife />
       </main>
 

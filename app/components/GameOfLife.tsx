@@ -63,9 +63,9 @@ const GameOfLife: React.FC = () => {
                 toggleGame={toggleGame}
                 clearGrid={clearGrid}
                 randomGrid={randomGrid}
-                generation={generation} 
+                generation={generation}
                 running={running}
-                />
+            />
             <Grid grid={grid} cellSize={cellSize} onCellClick={handleCellClick} />
         </div>
     );
